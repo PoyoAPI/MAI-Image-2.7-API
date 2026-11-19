@@ -1,0 +1,8 @@
+{
+  "name": "poyo-mai-image-2-7-api-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  }
+}

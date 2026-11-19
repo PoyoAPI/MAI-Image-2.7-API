@@ -1,0 +1,10 @@
+{
+  "model": "mai-image-2.7",
+  "input": {
+    "prompt": "A frosted glass perfume bottle with a brushed gold cap, front three-quarter view, studio product shot with soft reflections, product only.",
+    "size": "1:1",
+    "resolution": "1K",
+    "background": "transparent",
+    "output_format": "png"
+  }
+}

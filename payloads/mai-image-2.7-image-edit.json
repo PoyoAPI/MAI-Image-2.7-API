@@ -1,0 +1,9 @@
+{
+  "model": "mai-image-2.7",
+  "input": {
+    "prompt": "Change the headline from \"MORNING BLEND\" to \"AUTUMN SPICE\" and the line below to \"Pumpkin Latte · Today Only\". Keep the chalk lettering style, board texture, perspective, lighting and background unchanged.",
+    "image_urls": [
+      "https://storage.poyo.ai/models/mai-image-2-7/examples/chalkboard-base-1dfa613d6369.png"
+    ]
+  }
+}

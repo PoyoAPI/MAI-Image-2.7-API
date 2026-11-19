@@ -1,0 +1,8 @@
+{
+  "model": "mai-image-2.7-flash",
+  "input": {
+    "prompt": "An empty Mediterranean seaside pier at golden hour, wide shot.",
+    "size": "1:1",
+    "resolution": "1K"
+  }
+}

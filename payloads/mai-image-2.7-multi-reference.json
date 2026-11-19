@@ -1,0 +1,14 @@
+{
+  "model": "mai-image-2.7",
+  "input": {
+    "prompt": "Create a campaign hero image: the sneaker from image 1 resting on the blue wooden boards from image 2, placed on the pier from image 4 at golden hour, with a color palette taken from image 3. Keep the sneaker's shape, canvas material and gum sole exactly as in image 1.",
+    "image_urls": [
+      "https://storage.poyo.ai/models/mai-image-2-7/examples/ref-sneaker-a50ddd95e541.png",
+      "https://storage.poyo.ai/models/mai-image-2-7/examples/ref-boards-98243a36da25.png",
+      "https://storage.poyo.ai/models/mai-image-2-7/examples/ref-swatch-7099ded02945.png",
+      "https://storage.poyo.ai/models/mai-image-2-7/examples/flash-pier-cb5f548d4681.png"
+    ],
+    "size": "16:9",
+    "resolution": "1K"
+  }
+}
