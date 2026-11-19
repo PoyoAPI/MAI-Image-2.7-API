@@ -22,7 +22,7 @@ Custom sizes use both sides divisible by 16, each side at least 768, and at most
 
 ## Billing
 
-- Token rates in credits per 1M tokens (text input / reference image input / output): 800 / 1,280 / 5,440 for `mai-image-2.7`, and 280 / 400 / 1,600 for `mai-image-2.7-flash`. 1 credit = $0.005.
+- Token rates in credits per 1M tokens (text input / reference image input / output): 1,000 / 1,600 / 6,800 for `mai-image-2.7`, and 350 / 500 / 2,000 for `mai-image-2.7-flash`. 1 credit = $0.005.
 - Output tokens = width × height / 1024; each reference image adds up to 1,024 tokens; text tokens = UTF-8 bytes / 4, rounded up.
 - A maximum is reserved at submission and the final charge follows the actual tokens, never above the reserve. Failed tasks are not charged.
 

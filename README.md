@@ -18,26 +18,26 @@ Last verified against the PoYo schema and pricing on **November 19, 2026**.
 - **Sizes:** 1:1, 4:3, 3:4, 3:2, 2:3, 16:9, 9:16, or a custom `WIDTHxHEIGHT`; the largest output is 4,194,304 pixels, such as 2048×2048 or 3840×1088
 - **Prompt:** up to 32,000 characters
 - **Transparent background:** `background: "transparent"` with PNG or WebP output
-- **Price:** billed by tokens, pay-as-you-go; a 1K square image costs about 5.58 credits ($0.028) on MAI Image 2.7 and 1.64 credits ($0.0082) on Flash
+- **Price:** billed by tokens, pay-as-you-go; a 1K square image costs about 6.98 credits ($0.035) on MAI Image 2.7 and 2.05 credits ($0.0103) on Flash
 - **Speed:** in PoYo tests in November 2026, most MAI Image 2.7 tasks finished in about 35–70 seconds and Flash tasks in about 25–50 seconds
 - **Access:** a hosted Microsoft model used through an API; call it from Python, Node.js, cURL, or the PoYo MCP tools
 
 ## MAI Image 2.7 API examples (images)
 
-Real MAI Image 2.7 and MAI Image 2.7 Flash outputs generated through PoYo on November 18, 2026. Each preview is a downscaled WebP; click it to open the full-size file. The credits are the amounts charged for each task.
+Real MAI Image 2.7 and MAI Image 2.7 Flash outputs generated through PoYo on November 18, 2026. Each preview is a downscaled WebP; click it to open the full-size file. The credits show what each task costs at current prices.
 
 <table>
 <tr>
-<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/examples/default-lamp-571bef49eef4.png"><img src="assets/text-to-image-lamp.webp" width="400" alt="MAI Image 2.7 API text-to-image example: mint-green ceramic table lamp on a walnut side table in soft daylight"></a><br><b>Text-to-image · 3:2 · 1K · 1152×768 · 4.74 credits</b><br><sub>The output of <code>payloads/mai-image-2.7-text-to-image.json</code></sub></td>
-<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/examples/chalkboard-text-edit-66baecdbfb24.png"><img src="assets/text-edit-chalkboard.webp" width="260" alt="MAI Image 2.7 API image edit example: coffee shop chalkboard rewritten to AUTUMN SPICE in matching chalk lettering"></a><br><b>Text edit · 1 reference · 880×1184 · 6.56 credits</b><br><sub>"MORNING BLEND" rewritten to "AUTUMN SPICE" (<code>payloads/mai-image-2.7-image-edit.json</code>)</sub></td>
+<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/examples/default-lamp-571bef49eef4.png"><img src="assets/text-to-image-lamp.webp" width="400" alt="MAI Image 2.7 API text-to-image example: mint-green ceramic table lamp on a walnut side table in soft daylight"></a><br><b>Text-to-image · 3:2 · 1K · 1152×768 · 5.93 credits</b><br><sub>The output of <code>payloads/mai-image-2.7-text-to-image.json</code></sub></td>
+<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/examples/chalkboard-text-edit-66baecdbfb24.png"><img src="assets/text-edit-chalkboard.webp" width="260" alt="MAI Image 2.7 API image edit example: coffee shop chalkboard rewritten to AUTUMN SPICE in matching chalk lettering"></a><br><b>Text edit · 1 reference · 880×1184 · 8.20 credits</b><br><sub>"MORNING BLEND" rewritten to "AUTUMN SPICE" (<code>payloads/mai-image-2.7-image-edit.json</code>)</sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/examples/perfume-transparent-b62c2b1516ed.png"><img src="assets/transparent-perfume.webp" width="300" alt="MAI Image 2.7 API transparent background example: frosted glass perfume bottle with a gold cap on an alpha background"></a><br><b>Transparent PNG · 1:1 · 1K · 1024×1024 · 5.60 credits</b><br><sub>The output of <code>payloads/mai-image-2.7-transparent-background.json</code></sub></td>
-<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/examples/compose-sneaker-pier-b3304c9c7c97.png"><img src="assets/multi-reference-sneaker-pier.webp" width="400" alt="MAI Image 2.7 API multi-reference example: white sneaker on blue boards on a seaside pier at golden hour, combined from four reference images"></a><br><b>4 reference images · 16:9 · 1K · 1360×768 · 10.85 credits</b><br><sub>Sneaker, boards, swatch, and pier combined (<code>payloads/mai-image-2.7-multi-reference.json</code>)</sub></td>
+<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/examples/perfume-transparent-b62c2b1516ed.png"><img src="assets/transparent-perfume.webp" width="300" alt="MAI Image 2.7 API transparent background example: frosted glass perfume bottle with a gold cap on an alpha background"></a><br><b>Transparent PNG · 1:1 · 1K · 1024×1024 · 7.00 credits</b><br><sub>The output of <code>payloads/mai-image-2.7-transparent-background.json</code></sub></td>
+<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/examples/compose-sneaker-pier-b3304c9c7c97.png"><img src="assets/multi-reference-sneaker-pier.webp" width="400" alt="MAI Image 2.7 API multi-reference example: white sneaker on blue boards on a seaside pier at golden hour, combined from four reference images"></a><br><b>4 reference images · 16:9 · 1K · 1360×768 · 13.56 credits</b><br><sub>Sneaker, boards, swatch, and pier combined (<code>payloads/mai-image-2.7-multi-reference.json</code>)</sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/examples/flash-pier-cb5f548d4681.png"><img src="assets/flash-seaside-pier.webp" width="300" alt="MAI Image 2.7 Flash API example: empty Mediterranean seaside pier at golden hour"></a><br><b>Flash text-to-image · 1:1 · 1K · 1024×1024 · 1.64 credits</b><br><sub>The output of <code>payloads/mai-image-2.7-flash-text-to-image.json</code></sub></td>
-<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/features/custom-size-109bb6d78887.webp"><img src="assets/custom-size-banner.webp" width="400" alt="MAI Image 2.7 API custom size example: 3840x1088 panoramic banner of a turquoise bay with sailboats and a stone promenade"></a><br><b>Custom size · 3840×1088 · 22.24 credits</b><br><sub>Full-width website banner (<code>payloads/mai-image-2.7-custom-size.json</code>)</sub></td>
+<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/examples/flash-pier-cb5f548d4681.png"><img src="assets/flash-seaside-pier.webp" width="300" alt="MAI Image 2.7 Flash API example: empty Mediterranean seaside pier at golden hour"></a><br><b>Flash text-to-image · 1:1 · 1K · 1024×1024 · 2.05 credits</b><br><sub>The output of <code>payloads/mai-image-2.7-flash-text-to-image.json</code></sub></td>
+<td align="center" valign="top"><a href="https://storage.poyo.ai/models/mai-image-2-7/features/custom-size-109bb6d78887.webp"><img src="assets/custom-size-banner.webp" width="400" alt="MAI Image 2.7 API custom size example: 3840x1088 panoramic banner of a turquoise bay with sailboats and a stone promenade"></a><br><b>Custom size · 3840×1088 · 27.81 credits</b><br><sub>Full-width website banner (<code>payloads/mai-image-2.7-custom-size.json</code>)</sub></td>
 </tr>
 </table>
 
@@ -114,8 +114,8 @@ One model ID covers both text-to-image and editing: a request with only a prompt
 | Custom size | Multiples of 16, up to 4,194,304 pixels | Multiples of 16, up to 4,194,304 pixels | Multiples of 32, up to 2,359,296 pixels |
 | Background | Opaque or transparent (PNG, WebP) | Opaque or transparent (PNG, WebP) | Opaque |
 | Output format | PNG, JPEG, WebP | PNG, JPEG, WebP | PNG |
-| Credits per 1M tokens (text / image input / output) | 800 / 1,280 / 5,440 | 280 / 400 / 1,600 | 800 / 1,280 / 6,080 |
-| 1K square image | About 5.58 credits | About 1.64 credits | About 6.23 credits |
+| Credits per 1M tokens (text / image input / output) | 1,000 / 1,600 / 6,800 | 350 / 500 / 2,000 | 800 / 1,280 / 6,080 |
+| 1K square image | About 6.98 credits | About 2.05 credits | About 6.23 credits |
 | Typical time in PoYo tests | About 35–70 s | About 25–50 s | About 15–50 s |
 
 Both MAI Image 2.7 model IDs take exactly the same request fields, so you can draft on Flash and render the final image on MAI Image 2.7 by changing only `model`. According to Microsoft, MAI Image 2.7 improves on MAI Image 2.6 in all 10 use cases and all 7 editing actions evaluated by Artificial Analysis. PoYo offers four MAI Image API models with one key: `mai-image-2.7`, `mai-image-2.7-flash`, `mai-image-2.6`, and `mai-image-2.6-flash`. MAI Image 2.6 is documented on its [model page](https://poyo.ai/models/mai-image-2-6?utm_source=github&utm_medium=readme&utm_campaign=mai-image-2-7-api).
@@ -195,16 +195,16 @@ Status polling and the other modes are in [curl/generate.md](curl/generate.md).
 
 ## Example requests
 
-Every file in [`payloads/`](payloads) is a complete request body with public reference images, so it runs as-is. The credits are the amounts charged when these exact requests ran on November 18, 2026.
+Every file in [`payloads/`](payloads) is a complete request body with public reference images, so it runs as-is. The credits are what these exact requests cost at current prices, based on the tokens they used when they ran on November 18, 2026.
 
 | File | Model | Mode | Settings | Credits |
 | --- | --- | --- | --- | --- |
-| [`mai-image-2.7-text-to-image.json`](payloads/mai-image-2.7-text-to-image.json) | `mai-image-2.7` | Text-to-image | 3:2, 1K | 4.74 ($0.024) |
-| [`mai-image-2.7-image-edit.json`](payloads/mai-image-2.7-image-edit.json) | `mai-image-2.7` | Edit one image | 1 reference, follows its 3:4 shape | 6.56 ($0.033) |
-| [`mai-image-2.7-transparent-background.json`](payloads/mai-image-2.7-transparent-background.json) | `mai-image-2.7` | Transparent PNG | 1:1, 1K | 5.60 ($0.028) |
-| [`mai-image-2.7-multi-reference.json`](payloads/mai-image-2.7-multi-reference.json) | `mai-image-2.7` | Combine images | 4 references, 16:9, 1K | 10.85 ($0.054) |
-| [`mai-image-2.7-custom-size.json`](payloads/mai-image-2.7-custom-size.json) | `mai-image-2.7` | Custom size | 3840x1088 | 22.24 ($0.111) |
-| [`mai-image-2.7-flash-text-to-image.json`](payloads/mai-image-2.7-flash-text-to-image.json) | `mai-image-2.7-flash` | Text-to-image | 1:1, 1K | 1.64 ($0.0082) |
+| [`mai-image-2.7-text-to-image.json`](payloads/mai-image-2.7-text-to-image.json) | `mai-image-2.7` | Text-to-image | 3:2, 1K | 5.93 ($0.030) |
+| [`mai-image-2.7-image-edit.json`](payloads/mai-image-2.7-image-edit.json) | `mai-image-2.7` | Edit one image | 1 reference, follows its 3:4 shape | 8.20 ($0.041) |
+| [`mai-image-2.7-transparent-background.json`](payloads/mai-image-2.7-transparent-background.json) | `mai-image-2.7` | Transparent PNG | 1:1, 1K | 7.00 ($0.035) |
+| [`mai-image-2.7-multi-reference.json`](payloads/mai-image-2.7-multi-reference.json) | `mai-image-2.7` | Combine images | 4 references, 16:9, 1K | 13.56 ($0.068) |
+| [`mai-image-2.7-custom-size.json`](payloads/mai-image-2.7-custom-size.json) | `mai-image-2.7` | Custom size | 3840x1088 | 27.81 ($0.139) |
+| [`mai-image-2.7-flash-text-to-image.json`](payloads/mai-image-2.7-flash-text-to-image.json) | `mai-image-2.7-flash` | Text-to-image | 1:1, 1K | 2.05 ($0.0103) |
 
 ## Input modes
 
@@ -245,12 +245,12 @@ Custom `WIDTHxHEIGHT` sizes use both sides divisible by 16, each side at least 7
 
 ## MAI Image 2.7 API pricing
 
-On PoYo, a 1K square image costs about $0.028 (5.58 credits) with MAI Image 2.7 and about $0.0082 (1.64 credits) with MAI Image 2.7 Flash; a 2K image costs about $0.111 and $0.033. Billing is by tokens, pay-as-you-go, with no subscription. 1 credit = $0.005.
+On PoYo, a 1K square image costs about $0.035 (6.98 credits) with MAI Image 2.7 and about $0.0103 (2.05 credits) with MAI Image 2.7 Flash; a 2K image costs about $0.139 and $0.041. Billing is by tokens, pay-as-you-go, with no subscription. 1 credit = $0.005.
 
 | Model | Text input | Reference image input | Image output |
 | --- | --- | --- | --- |
-| `mai-image-2.7` | 800 credits ($4.00) per 1M tokens | 1,280 credits ($6.40) per 1M tokens | 5,440 credits ($27.20) per 1M tokens |
-| `mai-image-2.7-flash` | 280 credits ($1.40) per 1M tokens | 400 credits ($2.00) per 1M tokens | 1,600 credits ($8.00) per 1M tokens |
+| `mai-image-2.7` | 1,000 credits ($5.00) per 1M tokens | 1,600 credits ($8.00) per 1M tokens | 6,800 credits ($34.00) per 1M tokens |
+| `mai-image-2.7-flash` | 350 credits ($1.75) per 1M tokens | 500 credits ($2.50) per 1M tokens | 2,000 credits ($10.00) per 1M tokens |
 
 - Output tokens = output width × height / 1024. A 1024×1024 image is 1,024 tokens; 2720×1536 is 4,080 tokens.
 - Each reference image adds its sent width × height / 1024 tokens, up to 1,024 tokens per image.
@@ -262,13 +262,13 @@ A maximum based on size, prompt length, and reference images is reserved at subm
 
 | Output | `mai-image-2.7` | `mai-image-2.7-flash` |
 | --- | --- | --- |
-| 1K, 1:1 (1024×1024) | 5.58 credits ($0.028) | 1.64 credits ($0.0082) |
-| 2K, 16:9 (2720×1536) | 22.20 credits ($0.111) | 6.53 credits ($0.033) |
-| 2K, 1:1 (2048×2048) | about 22.3 credits ($0.112) | about 6.56 credits ($0.033) |
-| Edit with 1 reference, about 1 megapixel | 6.89 credits ($0.034) | about 2.05 credits ($0.010) |
-| 1,000 images at 1K, 1:1 | about 5,580 credits ($27.90) | about 1,640 credits ($8.20) |
+| 1K, 1:1 (1024×1024) | 6.98 credits ($0.035) | 2.05 credits ($0.0103) |
+| 2K, 16:9 (2720×1536) | 27.75 credits ($0.139) | 8.16 credits ($0.041) |
+| 2K, 1:1 (2048×2048) | about 27.9 credits ($0.139) | about 8.20 credits ($0.041) |
+| Edit with 1 reference, about 1 megapixel | 8.61 credits ($0.043) | about 2.57 credits ($0.013) |
+| 1,000 images at 1K, 1:1 | about 6,980 credits ($34.90) | about 2,050 credits ($10.25) |
 
-Values without "about" were charged on real PoYo tasks in November 2026 (Flash 2K measured at 9:16, which has the same pixel count); the others are calculated from the token rates with a short prompt. Failed generation tasks are not charged credits.
+Values without "about" use the token counts of real PoYo tasks in November 2026 at current rates (Flash 2K measured at 9:16, which has the same pixel count); the others are calculated from the token rates with a short prompt. Failed generation tasks are not charged credits.
 
 ## Async production flow
 
@@ -303,13 +303,13 @@ A task that fails after submission returns `status: "failed"` with `error_messag
 
 **How do I use the MAI Image 2.7 API in Python?** Create a PoYo API key, send `POST https://api.poyo.ai/api/generate/submit` with `"model": "mai-image-2.7"` and an `input` object with a `prompt`, then poll `GET /api/generate/status/{task_id}` until `finished` and read `data.files[0].file_url`. The [Python quickstart](#python) above shows the whole flow in about 20 lines of standard-library code, and the same JSON works from Node.js and cURL.
 
-**How much does the MAI Image 2.7 API cost?** `mai-image-2.7` costs 800, 1,280, and 5,440 credits per 1M text input, reference image, and output tokens; `mai-image-2.7-flash` costs 280, 400, and 1,600. A 1K square image is about 5.58 credits ($0.028) on MAI Image 2.7 and 1.64 credits ($0.0082) on Flash; a 2K square image is about 22.3 and 6.56 credits. Failed tasks are free.
+**How much does the MAI Image 2.7 API cost?** `mai-image-2.7` costs 1,000, 1,600, and 6,800 credits per 1M text input, reference image, and output tokens; `mai-image-2.7-flash` costs 350, 500, and 2,000. A 1K square image is about 6.98 credits ($0.035) on MAI Image 2.7 and 2.05 credits ($0.0103) on Flash; a 2K square image is about 27.9 and 8.20 credits. Failed tasks are free.
 
-**Is MAI Image 2.7 free to use?** It is pay-as-you-go on PoYo, with no subscription or minimum spend, and you pay only for finished images. You can try both models in the [Playground](https://poyo.ai/models/mai-image-2-7?utm_source=github&utm_medium=readme&utm_campaign=mai-image-2-7-api) before integrating the API. MAI Image 2.7 Flash is the lowest-cost option, at about 1.64 credits ($0.0082) per 1K image.
+**Is MAI Image 2.7 free to use?** It is pay-as-you-go on PoYo, with no subscription or minimum spend, and you pay only for finished images. You can try both models in the [Playground](https://poyo.ai/models/mai-image-2-7?utm_source=github&utm_medium=readme&utm_campaign=mai-image-2-7-api) before integrating the API. MAI Image 2.7 Flash is the lowest-cost option, at about 2.05 credits ($0.0103) per 1K image.
 
 **What is the difference between MAI Image 2.7 and MAI Image 2.7 Flash?** Flash is the optimized version for fast, cost-efficient generation. Both accept exactly the same fields: text-to-image, up to 5 reference images, 1K or 2K, custom sizes, transparent backgrounds, and PNG, JPEG, or WebP output. In PoYo tests Flash finished in about 25 to 50 seconds versus 35 to 70 for MAI Image 2.7.
 
-**How is MAI Image 2.7 different from MAI Image 2.6?** On PoYo, MAI Image 2.7 adds transparent backgrounds, JPEG and WebP output, 2K at 2720×1536 for 16:9, and custom sizes up to 4,194,304 pixels, at a lower output rate of 5,440 credits per 1M tokens. Switching from the MAI Image 2.6 API starts with the model ID.
+**How is MAI Image 2.7 different from MAI Image 2.6?** On PoYo, MAI Image 2.7 adds transparent backgrounds, JPEG and WebP output, 2K at 2720×1536 for 16:9, and custom sizes up to 4,194,304 pixels. Switching from the MAI Image 2.6 API starts with the model ID.
 
 **Should I use MAI Image 2.7 or GPT Image 2.6?** Both run on PoYo with the same API key, so you can send the same prompt to each and compare. MAI Image 2.7 suits precise edits that keep the rest of an image intact, in-image text updates, and transparent PNG or WebP assets. GPT Image 2.6 offers Flare and Sunburst versions, 4K output, and up to 16 reference images; see [GPT-Image-2.6-API](https://github.com/PoyoAPI/GPT-Image-2.6-API).
 
